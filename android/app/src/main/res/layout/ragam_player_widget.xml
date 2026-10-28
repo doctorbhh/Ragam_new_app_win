@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_background"
+    android:padding="12dp">
+
+    <!-- Top section: Album Art + Track Title & Artist -->
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/iv_artwork"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_widget_music_note"
+            android:background="@drawable/widget_artwork_bg"
+            android:padding="8dp"
+            android:contentDescription="Album Art" />
+
+        <LinearLayout
+            android:id="@+id/track_info_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="12dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ragam Music"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:singleLine="true"
+                android:ellipsize="end" />
+
+            <TextView
+                android:id="@+id/tv_artist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="No track playing"
+                android:textColor="#A0A5BA"
+                android:textSize="12sp"
+                android:singleLine="true"
+                android:ellipsize="end" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Progress section: Progress bar & Timestamps -->
+    <LinearLayout
+        android:id="@+id/progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_layout"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/pb_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:max="1000"
+            android:progress="0"
+            android:progressDrawable="@drawable/widget_progress_bar" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <TextView
+                android:id="@+id/tv_position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="0:00"
+                android:textColor="#8A8FA3"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="0:00"
+                android:textColor="#8A8FA3"
+                android:textSize="10sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- Playback controls: Prev, Rewind 10s, Play/Pause, Forward 10s, Next -->
+    <LinearLayout
+        android:id="@+id/controls_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progress_layout"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:weightSum="5">
+
+        <!-- Previous Track Button -->
+        <ImageButton
+            android:id="@+id/btn_prev"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:scaleType="fitCenter"
+            android:padding="6dp"
+            android:src="@drawable/ic_widget_prev"
+            android:contentDescription="Previous Track" />
+
+        <!-- Seek -10s Button -->
+        <ImageButton
+            android:id="@+id/btn_rewind"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:scaleType="fitCenter"
+            android:padding="6dp"
+            android:src="@drawable/ic_widget_rewind_10"
+            android:contentDescription="Rewind 10 Seconds" />
+
+        <!-- Play/Pause Button -->
+        <ImageButton
+            android:id="@+id/btn_play_pause"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/widget_play_bg"
+            android:scaleType="fitCenter"
+            android:padding="9dp"
+            android:src="@drawable/ic_widget_play"
+            android:contentDescription="Play or Pause" />
+
+        <!-- Seek +10s Button -->
+        <ImageButton
+            android:id="@+id/btn_forward"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:scaleType="fitCenter"
+            android:padding="6dp"
+            android:src="@drawable/ic_widget_forward_10"
+            android:contentDescription="Forward 10 Seconds" />
+
+        <!-- Next Track Button -->
+        <ImageButton
+            android:id="@+id/btn_next"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:scaleType="fitCenter"
+            android:padding="6dp"
+            android:src="@drawable/ic_widget_next"
+            android:contentDescription="Next Track" />
+    </LinearLayout>
+
+</RelativeLayout>

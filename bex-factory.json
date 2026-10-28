@@ -1,0 +1,238 @@
+{
+  "generated_at": "2026-08-20T11:09:46Z",
+  "plugin_count": 12,
+  "plugins": [
+    {
+      "asset_name": "applemusicimporter.bex",
+      "created_at": "2026-03-13T06:51:45.5102591Z",
+      "description": "Import Apple Music playlists and albums importer.",
+      "id": "content-importer.bloomfactory.applemusicimporter",
+      "last_updated": "2026-08-20T11:09:46Z",
+      "manifest_version": "1.0",
+      "name": "apple-music-importer",
+      "publisher": {
+        "contact": null,
+        "name": "bloomfactory",
+        "url": null
+      },
+      "thumbnail_url": "https://music.apple.com/favicon.ico",
+      "type": "content-importer",
+      "version": "1",
+      "download_url": "https://github.com/kojima-ui/bloom-factory/releases/download/factory11/applemusicimporter.bex",
+      "released_at": "2026-08-20T11:09:46Z"
+    },
+    {
+      "asset_name": "billboard.bex",
+      "created_at": "2026-03-13T06:47:10.5788495Z",
+      "description": "Billboard chart data provider for Bloomee",
+      "id": "chart-provider.bloomfactory.billboard",
+      "last_updated": "2026-08-20T11:09:46Z",
+      "manifest_version": "1.0",
+      "name": "billboard",
+      "publisher": {
+        "contact": null,
+        "name": "bloomfactory",
+        "url": null
+      },
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Billboard-charts-logo-2018-billboard-1548-1024x677.jpg/330px-Billboard-charts-logo-2018-billboard-1548-1024x677.jpg",
+      "type": "chart-provider",
+      "version": "1",
+      "download_url": "https://github.com/kojima-ui/bloom-factory/releases/download/factory11/billboard.bex",
+      "released_at": "2026-08-20T11:09:46Z"
+    },
+    {
+      "asset_name": "itunessearchsuggestions.bex",
+      "created_at": "2026-03-13T06:48:23.2176719Z",
+      "description": "Fast search suggestions powered by iTunes Search API and Apple Music RSS.",
+      "id": "search-suggestion-provider.bloomfactory.itunessearchsuggestions",
+      "last_updated": "2026-08-20T11:09:46Z",
+      "manifest_version": "1.0",
+      "name": "itunes-search-suggestions",
+      "publisher": {
+        "contact": null,
+        "name": "bloomfactory",
+        "url": null
+      },
+      "thumbnail_url": "https://music.apple.com/favicon.ico",
+      "type": "search-suggestion-provider",
+      "version": "1",
+      "download_url": "https://github.com/kojima-ui/bloom-factory/releases/download/factory11/itunessearchsuggestions.bex",
+      "released_at": "2026-08-20T11:09:46Z"
+    },
+    {
+      "asset_name": "jisaavn.bex",
+      "created_at": "2026-03-13T06:46:28.3072614Z",
+      "description": "Jiosaavn based content provider.",
+      "id": "content-resolver.bloomfactory.jisaavn",
+      "last_updated": "2026-08-20T11:09:46Z",
+      "manifest_version": "1.0",
+      "name": "jisaavn",
+      "publisher": {
+        "contact": null,
+        "name": "bloomfactory",
+        "url": null
+      },
+      "thumbnail_url": "https://www.jiosaavn.com/favicon.ico",
+      "type": "content-resolver",
+      "version": "2",
+      "download_url": "https://github.com/kojima-ui/bloom-factory/releases/download/factory11/jisaavn.bex",
+      "released_at": "2026-08-20T11:09:46Z"
+    },
+    {
+      "asset_name": "jiosaavnimporter.bex",
+      "created_at": "2026-03-13T06:51:07.1019608Z",
+      "description": "Import Jiosaavn playlists and albums into bloomee.",
+      "id": "content-importer.bloomfactory.jiosaavnimporter",
+      "last_updated": "2026-08-20T11:09:46Z",
+      "manifest_version": "1.0",
+      "name": "jiosaavn-importer",
+      "publisher": {
+        "contact": null,
+        "name": "bloomfactory",
+        "url": null
+      },
+      "thumbnail_url": "https://www.jiosaavn.com/favicon.ico",
+      "type": "content-importer",
+      "version": "1",
+      "download_url": "https://github.com/kojima-ui/bloom-factory/releases/download/factory11/jiosaavnimporter.bex",
+      "released_at": "2026-08-20T11:09:46Z"
+    },
+    {
+      "asset_name": "lrcnet.bex",
+      "created_at": "2026-03-13T06:46:44.8992734Z",
+      "description": "It fetches lyrics from LRCNet API, which is a free and open source lyrics database.",
+      "id": "lyrics-provider.bloomfactory.lrcnet",
+      "last_updated": "2026-08-20T11:09:46Z",
+      "manifest_version": "1.0",
+      "name": "lrcnet",
+      "publisher": {
+        "contact": null,
+        "name": "bloomfactory",
+        "url": null
+      },
+      "thumbnail_url": "https://lrclib.net/assets/lrclib-370c57eb.png",
+      "type": "lyrics-provider",
+      "version": "1",
+      "download_url": "https://github.com/kojima-ui/bloom-factory/releases/download/factory11/lrcnet.bex",
+      "released_at": "2026-08-20T11:09:46Z"
+    },
+    {
+      "asset_name": "musicbrainzsuggestions.bex",
+      "created_at": "2026-03-13T06:48:58.4158864Z",
+      "description": "Search suggestions powered by MusicBrainz API.",
+      "id": "search-suggestion-provider.bloomfactory.musicbrainzsuggestions",
+      "last_updated": "2026-08-20T11:09:46Z",
+      "manifest_version": "1.0",
+      "name": "musicbrainz-suggestions",
+      "publisher": {
+        "contact": null,
+        "name": "bloomfactory",
+        "url": null
+      },
+      "thumbnail_url": "https://avatars.githubusercontent.com/u/293421?s=200&v=4",
+      "type": "search-suggestion-provider",
+      "version": "1",
+      "download_url": "https://github.com/kojima-ui/bloom-factory/releases/download/factory11/musicbrainzsuggestions.bex",
+      "released_at": "2026-08-20T11:09:46Z"
+    },
+    {
+      "asset_name": "spotifyimporter.bex",
+      "created_at": "2026-03-13T06:52:27.660671Z",
+      "description": "Import Spotify playlists and albums into Bloomee with robust Spotify web token extraction, API-first fetching, and embed fallback",
+      "id": "content-importer.bloomfactory.spotifyimporter",
+      "last_updated": "2026-08-20T11:09:46Z",
+      "manifest_version": "1.0",
+      "name": "spotify-importer",
+      "publisher": {
+        "contact": null,
+        "name": "bloomfactory",
+        "url": null
+      },
+      "thumbnail_url": "https://www.scdn.co/i/_global/favicon.png",
+      "type": "content-importer",
+      "version": "4",
+      "download_url": "https://github.com/kojima-ui/bloom-factory/releases/download/factory11/spotifyimporter.bex",
+      "released_at": "2026-08-20T11:09:46Z"
+    },
+    {
+      "asset_name": "ytmusic.bex",
+      "created_at": "2026-03-13T06:41:40.758641Z",
+      "description": "Music streaming integration powered by YouTube Music.",
+      "id": "content-resolver.bloomfactory.ytmusic",
+      "last_updated": "2026-08-20T11:09:46Z",
+      "manifest_version": "1.0",
+      "name": "ytmusic",
+      "publisher": {
+        "contact": null,
+        "name": "bloomfactory",
+        "url": null
+      },
+      "thumbnail_url": "https://icon-icons.com/download-file?file=https%3A%2F%2Fimages.icon-icons.com%2F2657%2FPNG%2F256%2Fyoutube_music_icon_161084.png&id=161084&pack_or_individual=pack",
+      "type": "content-resolver",
+      "version": "5",
+      "download_url": "https://github.com/kojima-ui/bloom-factory/releases/download/factory11/ytmusic.bex",
+      "released_at": "2026-08-20T11:09:46Z"
+    },
+    {
+      "asset_name": "ytmusicimporter.bex",
+      "created_at": "2026-03-13T06:51:25.1754671Z",
+      "description": "Import YouTube Music playlists and albums into Bloomee.",
+      "id": "content-importer.bloomfactory.ytmusicimporter",
+      "last_updated": "2026-08-20T11:09:46Z",
+      "manifest_version": "1.0",
+      "name": "ytmusic-importer",
+      "publisher": {
+        "contact": null,
+        "name": "bloomfactory",
+        "url": null
+      },
+      "thumbnail_url": "https://icon-icons.com/download-file?file=https%3A%2F%2Fimages.icon-icons.com%2F2657%2FPNG%2F256%2Fyoutube_music_icon_161084.png&id=161084&pack_or_individual=pack",
+      "type": "content-importer",
+      "version": "1",
+      "download_url": "https://github.com/kojima-ui/bloom-factory/releases/download/factory11/ytmusicimporter.bex",
+      "released_at": "2026-08-20T11:09:46Z"
+    },
+    {
+      "asset_name": "ytmusicsearchsuggestion.bex",
+      "created_at": "2026-03-13T06:47:48.5375999Z",
+      "description": "Search suggestions powered by YouTube Music API.",
+      "id": "search-suggestion-provider.bloomfactory.ytmusicsearchsuggestion",
+      "last_updated": "2026-08-20T11:09:46Z",
+      "manifest_version": "1.0",
+      "name": "ytmusic-search-suggestion",
+      "publisher": {
+        "contact": null,
+        "name": "bloomfactory",
+        "url": null
+      },
+      "thumbnail_url": "https://icon-icons.com/download-file?file=https%3A%2F%2Fimages.icon-icons.com%2F2657%2FPNG%2F256%2Fyoutube_music_icon_161084.png&id=161084&pack_or_individual=pack",
+      "type": "search-suggestion-provider",
+      "version": "1",
+      "download_url": "https://github.com/kojima-ui/bloom-factory/releases/download/factory11/ytmusicsearchsuggestion.bex",
+      "released_at": "2026-08-20T11:09:46Z"
+    },
+    {
+      "asset_name": "ytvideo.bex",
+      "created_at": "2026-03-13T06:46:13.5018763Z",
+      "description": "Resolve YouTube video content.",
+      "id": "content-resolver.bloomfactory.ytvideo",
+      "last_updated": "2026-08-20T11:09:46Z",
+      "manifest_version": "1.0",
+      "name": "ytvideo",
+      "publisher": {
+        "contact": null,
+        "name": "bloomfactory",
+        "url": null
+      },
+      "thumbnail_url": "https://www.gstatic.com/youtube/img/branding/favicon/favicon_144x144.png",
+      "type": "content-resolver",
+      "version": "4",
+      "download_url": "https://github.com/kojima-ui/bloom-factory/releases/download/factory11/ytvideo.bex",
+      "released_at": "2026-08-20T11:09:46Z"
+    }
+  ],
+  "schema_version": "1.0",
+  "name": "BloomFactory (Unofficial + Community)",
+  "description": "Plugin repository for Bloomee by community.",
+  "thumbnail_url": null
+}
